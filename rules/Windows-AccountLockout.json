@@ -1,0 +1,10 @@
+{
+  "name": "Windows - Account Lockout",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Учётная запись заблокирована после попыток входа",
+  "conditions": {
+    "eventId": 4740
+  },
+  "severity": "HIGH"
+}

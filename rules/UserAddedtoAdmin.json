@@ -1,0 +1,11 @@
+{
+  "name": "Windows - User Added to Admin Group",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Повышение привилегий — критично",
+  "conditions": {
+    "eventId": 4732,
+    "groupName": "Administrators"
+  },
+  "severity": "CRITICAL"
+}

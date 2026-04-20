@@ -1,0 +1,11 @@
+{
+  "name": "Windows - Firewall Disabled",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Брандмауэр Windows был отключён",
+  "conditions": {
+    "eventId": 2003,
+    "eventSource": "Microsoft-Windows-Windows Firewall With Advanced Security"
+  },
+  "severity": "CRITICAL"
+}

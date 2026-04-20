@@ -1,0 +1,11 @@
+{
+  "name": "Windows - User Account Deleted",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Удалена учётная запись пользователя",
+  "conditions": {
+    "eventCategory": "Account Management",
+    "eventId": 4726
+  },
+  "severity": "MEDIUM"
+}

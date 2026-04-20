@@ -1,0 +1,11 @@
+{
+  "name": "Windows - New User Account Created",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Создан новый локальный пользователь",
+  "conditions": {
+    "eventCategory": "Account Management",
+    "eventId": 4720
+  },
+  "severity": "MEDIUM"
+}

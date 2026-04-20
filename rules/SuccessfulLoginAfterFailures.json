@@ -1,0 +1,13 @@
+{
+  "name": "Windows - Successful Login After Failures",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Вход после 3+ неудачных попыток — возможный взлом",
+  "conditions": {
+    "eventId_fail": 4625,
+    "eventId_success": 4624,
+    "failCount": 3,
+    "timeWindow": 600
+  },
+  "severity": "HIGH"
+}

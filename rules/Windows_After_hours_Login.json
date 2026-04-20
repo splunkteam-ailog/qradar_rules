@@ -1,0 +1,14 @@
+{
+  "name": "Windows - After Hours Login",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Вход после 20:00 или до 07:00",
+  "conditions": {
+    "eventId": 4624,
+    "timeRange": {
+      "start": "20:00",
+      "end": "07:00"
+    }
+  },
+  "severity": "MEDIUM"
+}

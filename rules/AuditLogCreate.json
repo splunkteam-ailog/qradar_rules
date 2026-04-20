@@ -1,0 +1,10 @@
+{
+  "name": "Windows - Audit Log Cleared",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Журнал безопасности был очищен — подозрительно",
+  "conditions": {
+    "eventId": 1102
+  },
+  "severity": "CRITICAL"
+}

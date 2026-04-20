@@ -1,0 +1,11 @@
+{
+  "name": "Windows - RDP Login Detected",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "Удалённый вход через RDP (logon type 10)",
+  "conditions": {
+    "eventId": 4624,
+    "logonType": 10
+  },
+  "severity": "MEDIUM"
+}

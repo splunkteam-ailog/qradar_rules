@@ -1,0 +1,13 @@
+{
+  "name": "Windows - Brute Force Login Attempt",
+  "type": "EVENT",
+  "enabled": true,
+  "notes": "5 и более неудачных входов за 5 минут",
+  "conditions": {
+    "eventCategory": "Authentication",
+    "eventId": 4625,
+    "threshold": 5,
+    "timeWindow": 300
+  },
+  "severity": "HIGH"
+}
